@@ -1,7 +1,7 @@
 {
     "name": "tselect",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "select library",
-    "main": "dist/v0.0.1/tselect.js",
+    "main": "dist/v0.0.2/tselect.js",
     "author": "@ovatlh"
 }
