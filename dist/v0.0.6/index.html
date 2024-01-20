@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>tSelect</title>
+
+  <link rel="stylesheet" href="tselect.css">
+  <link rel="stylesheet" href="index.css">
+
+  <script src="tselect.js" defer></script>
+  <script src="index.js" defer></script>
+</head>
+
+<body>
+  <form onsubmit="event.preventDefault();">
+    <select name="select-single" id="select-single" value="2">
+      <option value="1">Option - 01</option>
+      <option value="2">Option - 02</option>
+      <option value="3">Option - 03</option>
+      <option value="4">Option - 04</option>
+      <option value="5">Option - 05</option>
+    </select>
+
+    <select name="select-multiple" id="select-multiple" multiple value="3">
+      <option value="1">Option - 01</option>
+      <option value="2">Option - 02</option>
+      <option value="3">Option - 03</option>
+      <option value="4">Option - 04</option>
+      <option value="5">Option - 05</option>
+    </select>
+
+    <select class="t-select class-ex-01 class-ex-02" id="t-select-single" name="t-select-single"></select>
+
+    <select class="t-select class-ex-01 class-ex-02" id="t-select-multiple" name="t-select-multiple" multiple></select>
+
+    <div class="t-select-container" id="example01_t-select">
+      <button class="btn-t-select" type="button">
+        <p>Single</p>
+      </button>
+
+      <div class="t-select-option-list">
+        <input type="search" id="example01_single-search" placeholder="Buscar: Single">
+
+        <label for="example01_single-option-1">
+          <input type="radio" name="single-value" id="example01_single-option-1">
+          <div class="t-select-option-content">
+            <p>Option - 01 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima praesentium optio tempore harum nulla amet, nam ipsam consequuntur, unde ex corporis enim dignissimos earum! Excepturi, cupiditate. Sunt nostrum quaerat tempora.</p>
+          </div>
+        </label>
+
+        <label for="example01_single-option-2">
+          <input type="radio" name="single-value" id="example01_single-option-2">
+          <div class="t-select-option-content">
+            <p>Option - 02</p>
+          </div>
+        </label>
+
+        <label for="example01_single-option-3">
+          <input type="radio" name="single-value" id="example01_single-option-3">
+          <div class="t-select-option-content">
+            <p>Option - 03</p>
+          </div>
+        </label>
+
+        <label for="example01_single-option-4">
+          <input type="radio" name="single-value" id="example01_single-option-4">
+          <div class="t-select-option-content">
+            <p>Option - 04</p>
+          </div>
+        </label>
+
+        <label for="example01_single-option-5">
+          <input type="radio" name="single-value" id="example01_single-option-5">
+          <div class="t-select-option-content">
+            <p>Option - 05</p>
+          </div>
+        </label>
+
+        <label for="example01_single-option-6">
+          <input type="radio" name="single-value" id="example01_single-option-6">
+          <div class="t-select-option-content">
+            <p>Option - 06</p>
+          </div>
+        </label>
+
+        <label for="example01_single-option-7">
+          <input type="radio" name="single-value" id="example01_single-option-7">
+          <div class="t-select-option-content">
+            <p>Option - 07</p>
+          </div>
+        </label>
+
+        <label for="example01_single-option-8">
+          <input type="radio" name="single-value" id="example01_single-option-8">
+          <div class="t-select-option-content">
+            <p>Option - 08</p>
+          </div>
+        </label>
+
+        <label for="example01_single-option-9">
+          <input type="radio" name="single-value" id="example01_single-option-9">
+          <div class="t-select-option-content">
+            <p>Option - 09</p>
+          </div>
+        </label>
+
+        <label for="example01_single-option-10">
+          <input type="radio" name="single-value" id="example01_single-option-10">
+          <div class="t-select-option-content">
+            <p>Option - 10</p>
+          </div>
+        </label>
+      </div>
+    </div>
+
+    <div class="t-select-container" id="example02_t-select">
+      <button class="btn-t-select" type="button">
+        <p>Multiple</p>
+      </button>
+
+      <div class="t-select-option-list">
+        <input type="search" id="example01_single-search" placeholder="Buscar: Multiple">
+
+        <label for="example02_multiple-option-1">
+          <input type="checkbox" name="multiple-value" id="example02_multiple-option-1">
+          <div class="t-select-option-content">
+            <p>Option - 01 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad totam soluta modi. Similique cum suscipit officiis deleniti fuga recusandae officia ipsa velit, perferendis assumenda quia. Eaque voluptate ipsum laudantium voluptatibus!</p>
+          </div>
+        </label>
+
+        <label for="example02_multiple-option-2">
+          <input type="checkbox" name="multiple-value" id="example02_multiple-option-2">
+          <div class="t-select-option-content">
+            <p>Option - 02</p>
+          </div>
+        </label>
+
+        <label for="example02_multiple-option-3">
+          <input type="checkbox" name="multiple-value" id="example02_multiple-option-3">
+          <div class="t-select-option-content">
+            <p>Option - 03</p>
+          </div>
+        </label>
+
+        <label for="example02_multiple-option-4">
+          <input type="checkbox" name="multiple-value" id="example02_multiple-option-4">
+          <div class="t-select-option-content">
+            <p>Option - 04</p>
+          </div>
+        </label>
+
+        <label for="example02_multiple-option-5">
+          <input type="checkbox" name="multiple-value" id="example02_multiple-option-5">
+          <div class="t-select-option-content">
+            <p>Option - 05</p>
+          </div>
+        </label>
+
+        <label for="example02_multiple-option-6">
+          <input type="checkbox" name="multiple-value" id="example02_multiple-option-6">
+          <div class="t-select-option-content">
+            <p>Option - 06</p>
+          </div>
+        </label>
+
+        <label for="example02_multiple-option-7">
+          <input type="checkbox" name="multiple-value" id="example02_multiple-option-7">
+          <div class="t-select-option-content">
+            <p>Option - 07</p>
+          </div>
+        </label>
+
+        <label for="example02_multiple-option-8">
+          <input type="checkbox" name="multiple-value" id="example02_multiple-option-8">
+          <div class="t-select-option-content">
+            <p>Option - 08</p>
+          </div>
+        </label>
+
+        <label for="example02_multiple-option-9">
+          <input type="checkbox" name="multiple-value" id="example02_multiple-option-9">
+          <div class="t-select-option-content">
+            <p>Option - 09</p>
+          </div>
+        </label>
+
+        <label for="example02_multiple-option-10">
+          <input type="checkbox" name="multiple-value" id="example02_multiple-option-10">
+          <div class="t-select-option-content">
+            <p>Option - 10</p>
+          </div>
+        </label>
+      </div>
+    </div>
+
+    <select class="class-ex-03 class-ex-04" id="example03" name="example03"></select>
+
+    <select class="class-ex-03 class-ex-04" id="example04" name="example04" multiple></select>
+
+    <select class="class-ex-03 class-ex-04" id="example05" name="example05" required></select>
+
+    <select class="class-ex-03 class-ex-04" id="example06" name="example06" multiple required></select>
+    <button type="submit">
+      Enviar
+    </button>
+  </form>
+</body>
+
+</html>
