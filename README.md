@@ -1,3 +1,3 @@
 # tselect
 
-<a href="https://ovatlh.github.io/tselect/dist/v0.0.6/" target="_blank">https://ovatlh.github.io/tselect/dist/v0.0.6/</a>
+<a href="https://ovatlh.github.io/tselect/dist/v0.1.0/" target="_blank">https://ovatlh.github.io/tselect/dist/v0.1.0/</a>
